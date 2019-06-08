@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grouping Suite">
+	<test name="Grouping testA">
+		<groups>
+			<run>
+				<include name="A"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="groupingexample.Groupingexample1">
+			</class>
+		</classes>
+	</test>
+	<test name="Grouping testB">
+		<groups>
+			<run>
+				<include name="B"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="groupingexample.Groupingexample1">
+			</class>
+		</classes>
+	</test>
+</suite> 

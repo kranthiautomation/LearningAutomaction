@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="72046" started-at="2019-06-08T09:53:14Z" finished-at="2019-06-08T09:54:26Z">
+    <groups>
+    </groups>
+    <test name="testGuru" duration-ms="72046" started-at="2019-06-08T09:53:14Z" finished-at="2019-06-08T09:54:26Z">
+      <class name="priority.Priorityexample">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:priority.Priorityexample@742aa2]" name="openbrowser" duration-ms="59492" started-at="2019-06-08T09:53:14Z" finished-at="2019-06-08T09:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="search()[pri:1, instance:priority.Priorityexample@742aa2]" name="search" duration-ms="7954" started-at="2019-06-08T09:54:13Z" finished-at="2019-06-08T09:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:2, instance:priority.Priorityexample@742aa2]" name="tearDown" duration-ms="4510" started-at="2019-06-08T09:54:21Z" finished-at="2019-06-08T09:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- priority.Priorityexample -->
+    </test> <!-- testGuru -->
+  </suite> <!-- TestSuite -->
+</testng-results>

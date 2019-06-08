@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite Name]">
+  <test thread-count="5" name=" First Test Name(failed)">
+    <classes>
+      <class name="com.test.dependsonmethodtest">
+        <methods>
+          <include name="searchtest"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- com.test.dependsonmethodtest -->
+      <class name="com.test.timeouttestcase">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- com.test.timeouttestcase -->
+    </classes>
+  </test> <!--  First Test Name(failed) -->
+</suite> <!-- Failed suite [Test Suite Name] -->

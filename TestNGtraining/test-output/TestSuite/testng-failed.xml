@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
+  <test thread-count="3" name="testGuru(failed)" parallel="methods">
+    <parameter name="abc" value="kranthi kumar kambhampati"/>
+    <classes>
+      <class name="priority.Priorityexample">
+        <methods>
+          <include name="search"/>
+        </methods>
+      </class> <!-- priority.Priorityexample -->
+    </classes>
+  </test> <!-- testGuru(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

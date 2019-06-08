@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite Name" verbose="1">
+	<test name=" First Test Name">
+		<classes>
+			<class name="com.BeforeAfter.BeforeAfterTest">
+			</class>
+			
+		</classes>
+	</test>
+</suite>
