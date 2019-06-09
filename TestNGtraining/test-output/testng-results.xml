@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="72046" started-at="2019-06-08T09:53:14Z" finished-at="2019-06-08T09:54:26Z">
+  <suite name="Grouping Suite" duration-ms="2222" started-at="2019-06-08T13:18:49Z" finished-at="2019-06-08T13:18:52Z">
     <groups>
+      <group name="A">
+        <method signature="Groupingexample1.m1()[pri:0, instance:groupingexample.Groupingexample1@b1ffe6]" name="m1" class="groupingexample.Groupingexample1"/>
+        <method signature="Groupingexample1.m4()[pri:0, instance:groupingexample.Groupingexample1@b1ffe6]" name="m4" class="groupingexample.Groupingexample1"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="Groupingexample1.m2()[pri:0, instance:groupingexample.Groupingexample1@113b13f]" name="m2" class="groupingexample.Groupingexample1"/>
+        <method signature="Groupingexample1.m3()[pri:0, instance:groupingexample.Groupingexample1@113b13f]" name="m3" class="groupingexample.Groupingexample1"/>
+      </group> <!-- B -->
     </groups>
-    <test name="testGuru" duration-ms="72046" started-at="2019-06-08T09:53:14Z" finished-at="2019-06-08T09:54:26Z">
-      <class name="priority.Priorityexample">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:priority.Priorityexample@742aa2]" name="openbrowser" duration-ms="59492" started-at="2019-06-08T09:53:14Z" finished-at="2019-06-08T09:54:13Z">
+    <test name="Grouping testA" duration-ms="142" started-at="2019-06-08T13:18:49Z" finished-at="2019-06-08T13:18:50Z">
+      <class name="groupingexample.Groupingexample1">
+        <test-method status="PASS" signature="m1()[pri:0, instance:groupingexample.Groupingexample1@b1ffe6]" name="m1" duration-ms="16" started-at="2019-06-08T13:18:50Z" finished-at="2019-06-08T13:18:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="search()[pri:1, instance:priority.Priorityexample@742aa2]" name="search" duration-ms="7954" started-at="2019-06-08T09:54:13Z" finished-at="2019-06-08T09:54:21Z">
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m4()[pri:0, instance:groupingexample.Groupingexample1@b1ffe6]" name="m4" duration-ms="0" started-at="2019-06-08T13:18:50Z" finished-at="2019-06-08T13:18:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="tearDown()[pri:2, instance:priority.Priorityexample@742aa2]" name="tearDown" duration-ms="4510" started-at="2019-06-08T09:54:21Z" finished-at="2019-06-08T09:54:26Z">
+        </test-method> <!-- m4 -->
+      </class> <!-- groupingexample.Groupingexample1 -->
+    </test> <!-- Grouping testA -->
+    <test name="Grouping testB" duration-ms="0" started-at="2019-06-08T13:18:52Z" finished-at="2019-06-08T13:18:52Z">
+      <class name="groupingexample.Groupingexample1">
+        <test-method status="PASS" signature="m3()[pri:0, instance:groupingexample.Groupingexample1@113b13f]" name="m3" duration-ms="0" started-at="2019-06-08T13:18:52Z" finished-at="2019-06-08T13:18:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- priority.Priorityexample -->
-    </test> <!-- testGuru -->
-  </suite> <!-- TestSuite -->
+        </test-method> <!-- m3 -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:groupingexample.Groupingexample1@113b13f]" name="m2" duration-ms="0" started-at="2019-06-08T13:18:52Z" finished-at="2019-06-08T13:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- groupingexample.Groupingexample1 -->
+    </test> <!-- Grouping testB -->
+  </suite> <!-- Grouping Suite -->
 </testng-results>
